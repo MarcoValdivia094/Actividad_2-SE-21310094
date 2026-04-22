@@ -1,0 +1,39 @@
+COMPONENTE HUMANA
+El funcionamiento de un sistema experto puede entenderse mediante un ejemplo basado en el videojuego That's Not My Neighbor, donde se debe decidir si una persona es 
+un vecino real o un impostor. En primer lugar, la componente humana está formada por los expertos, que en este caso serían jugadores experimentados o los diseñadores del sistema, quienes conocen cómo identificar correctamente a los vecinos. Ellos proporcionan el conocimiento necesario que luego es estructurado por los ingenieros del conocimiento en forma de reglas.
+
+BASE DE CONOCIMIENTO
+A partir de esto se construye la base de conocimiento, que contiene toda la información relevante, como los datos de los residentes (nombre, apariencia, número de 
+apartamento, etc.) y las reglas para verificarlos. Por ejemplo, una regla podría ser que si la apariencia física no coincide con la ficha, entonces la persona es 
+sospechosa.
+
+SUBSISTEMA DE ADQUISICIÓN DE CONOCIMIENTO
+El subsistema de adquisición de conocimiento permite agregar nueva información al sistema, como nuevos vecinos o nuevos métodos de verificación, por ejemplo, 
+incorporar una prueba adicional como identificación biométrica.
+
+CONTROL DE COHERENCIA
+El control de coherencia se encarga de asegurar que la información almacenada sea consistente y no contradictoria. Por ejemplo, evita que un mismo vecino tenga 
+datos diferentes en distintas partes del sistema o que existan reglas que se contradigan entre sí.
+
+MOTOR DE INFERENCIA
+El motor de inferencia es el encargado de analizar cada caso. Toma los datos del visitante actual y los compara con la base de conocimiento aplicando las reglas 
+definidas, para así determinar si la persona es un vecino real o un impostor.
+
+SUBSISTEMA DE OBTENCIÓN DE CONOCIMIENTO (INFORMACIÓN ADICIONAL)
+Cuando la información disponible no es suficiente, interviene otro proceso relacionado con la adquisición de conocimiento, que permite obtener datos adicionales. 
+Por ejemplo, el sistema puede solicitar más pruebas, como huellas digitales o documentos adicionales, antes de tomar una decisión.
+
+INTERFAZ DE USUARIO
+La interfaz de usuario es el medio mediante el cual se interactúa con el sistema, permitiendo introducir datos y visualizar resultados. En este caso, sería la 
+pantalla donde se escanean documentos, se comparan rostros y se muestran instrucciones.
+
+SUBSISTEMA DE EJECUCIÓN DE ÓRDENES
+El subsistema de ejecución de órdenes se encarga de llevar a cabo la decisión tomada por el sistema, como permitir el acceso a la persona o llamar a seguridad en 
+caso de detectar un impostor.
+
+SUBSISTEMA DE EXPLICACIÓN
+Por su parte, el subsistema de explicación permite justificar las decisiones tomadas, mostrando las razones por las cuales una persona fue aceptada o rechazada, 
+por ejemplo, indicando que los datos no coincidían con la información registrada.
+
+SUBSISTEMA DE APRENDIZAJE
+Finalmente, el subsistema de aprendizaje permite mejorar el sistema con el tiempo. En los sistemas expertos tradicionales, este aprendizaje no es completamente automático, sino que ocurre cuando los expertos analizan errores o nuevas situaciones y agregan o ajustan reglas, haciendo que el sistema sea cada vez más preciso.
