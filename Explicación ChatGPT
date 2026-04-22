@@ -1,0 +1,71 @@
+1. ADQUISICIÓN DE CONOCIMIENTO
+¿Qué?
+  Es el proceso de capturar conocimiento desde distintas fuentes:
+    -Experto humano
+    -Sistemas cognitivos
+    -Sensores
+    -Bases de datos
+
+¿Para qué?
+Para construir la base de conocimiento del sistema experto.
+
+¿Cómo?
+  Mediante el módulo de adquisición de conocimiento, que:
+    -Entrevista o extrae reglas del experto
+    -Convierte datos en conocimiento estructurado
+    -Integra información de distintas fuentes
+
+
+2. REPRESENTACIÓN DEL CONOCIMIENTO
+¿Qué?
+Es la forma en que el conocimiento se almacena dentro del sistema.
+
+Incluye:
+-Base de conocimiento (reglas, hechos generales)
+-Base de hechos (datos específicos del problema actual)
+
+¿Para qué?
+Para que el sistema pueda “entender” y manipular la información.
+
+¿Cómo?
+  Usando técnicas de la Ingeniería del conocimiento como:
+    -Reglas IF–THEN
+    -Redes semánticas
+    -Marcos (frames)
+    -Lógica formal
+
+
+3. TRATAMIENTO DEL CONOCIMIENTO
+¿Qué?
+Es el procesamiento lógico que permite sacar conclusiones.
+
+Componentes:
+-Motor de inferencia
+-Módulo de explicaciones
+
+¿Para qué?
+Para resolver problemas, tomar decisiones o hacer diagnósticos.
+
+¿Cómo?
+-El motor de inferencia aplica reglas (encadenamiento hacia adelante o hacia atrás)
+-El módulo de explicaciones justifica los resultados al usuario
+
+
+4. UTILIZACIÓN DEL CONOCIMIENTO
+¿Qué?
+Es la interacción del sistema con el usuario.
+
+Componentes:
+-Interfaz
+-Usuario
+
+¿Para qué?
+Para que el usuario consulte, introduzca datos y reciba respuestas.
+
+¿Cómo?
+-A través de una interfaz amigable
+-El usuario ingresa información
+-El sistema responde con conclusiones y explicaciones
+
+
+
